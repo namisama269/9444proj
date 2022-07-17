@@ -47,10 +47,6 @@ for name_dir in os.listdir("lfw_funneled"):
     labels[i] = name
     inv_labels[name] = i
 
-    if name == "Daryl Smith":
-        print(i)
-        print(j)
-
     for s in os.listdir(os.path.join(path, name_dir)):
         img_path = os.path.join(path, name_dir, s)
         img = cv2.imread(img_path, cv2.IMREAD_COLOR)[:, :, ::-1] 
