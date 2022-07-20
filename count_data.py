@@ -1,14 +1,4 @@
 import os
-import gc
-import psutil
-import glob
-import random
-import tarfile
-import cv2
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-from PIL import Image
 
 def count_data(path):
     m = 0

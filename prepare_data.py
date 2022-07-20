@@ -1,14 +1,7 @@
 import os
-import gc
-import psutil
-import glob
-import random
 import tarfile
 import cv2
 import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-from PIL import Image
 import pickle
 
 # https://www.kaggle.com/datasets/atulanandjha/lfwpeople?resource=download
